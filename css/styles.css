@@ -66,7 +66,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 0;8
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -86,6 +86,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  border-bottom: 1px dotted #555;
 }
 
 h4 {
@@ -143,7 +144,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+/*img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -156,7 +157,7 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
-}
+}*/
 
 pre, code {
   width: 100%;
@@ -232,7 +233,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 0px;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -245,18 +246,12 @@ th {
  }
 
 td {
-  padding: 10px;
-  border: 1px solid #373737;
+  padding: 5px;
  }
 
 form {
   background: #f2f2f2;
   padding: 20px;
-}
-
-img {
-  width: 100%;
-  max-width: 100%;
 }
 
 /*******************************************************************************
@@ -268,17 +263,15 @@ body {
 }
 
 .outer {
-  /*width: 100%;*/
-max-width: 960px;
-margin: 0 auto;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .inner {
-  
   position: relative;
   padding: 10px 20px;
   margin: 0 auto;
-  border-left: 1px solid #111;
+  background-color: #fefefe;
 }
 
 #forkme_banner {
@@ -297,9 +290,6 @@ margin: 0 auto;
 }
 
 #header_wrap {
-/*  margin: 0;
-  padding: 0;
-/*  background-color: #EEE;*/
 }
 
 #header_wrap .inner {
@@ -329,15 +319,15 @@ margin: 0 auto;
 
 
 #navigation {
-  width: 200px;
-  margin: 0;
+  width: 220px;
+  margin: 0 0 0 -10px;
   padding: 10px;
   float: left;
   border: 1px dotted #111;
 }
 
 #content_text {
-  margin: 0 0 0 220px;
+  margin: 0 0 0 240px;
   padding: 0 30px 0 10px;
 }
 
@@ -350,7 +340,7 @@ margin: 0 auto;
 }
 
 #footer_wrap {
-border-top: 4px solid #15c;
+  border-top: 1px solid #111;
   clear: both;
 }
 
