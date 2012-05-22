@@ -6,7 +6,7 @@ dartrefjp
 
 ## 試験中
 
-http://yutopp.github.com/dartrefjp
+http://dartrefjp.github.com/dartrefjp/
 
 gh-pages version is testing now.
 
